@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel='stylesheet' href='index.css'>
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    </head>
+    <body>
+        <div id='headings'>
+            <h1>Home</h1>
+            <h1>Guest</h1>
+        </div>
+        <div id='scores'>
+            <div>
+                <span class='score' id='display1'>0</span>
+                <div class='buttons-set'>
+                    <button class='button' onclick='increment1()'>+ 1</button>
+                    <button class='button' onclick='increment2()'>+2</button>
+                    <button class='button' onclick='increment3()'>+3</button>
+                </div>
+            </div>
+            <div>
+                <span class='score' id='display2'>0</span>
+                <div class='buttons-set'>
+                    <button class='button' onclick='increment11()'>+ 1</button>
+                    <button class='button' onclick='increment22()'>+2</button>
+                    <button class='button' onclick='increment33()'>+3</button>
+                </div>
+            </div>
+        </div>
+        <button id='newgame' onclick='newgame()'>New Game</button>
+        <script src='index.js'></script>
+    </body>
+</html>
